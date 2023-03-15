@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.menu{
+    /* border: 2px solid red; */
+
+    height: 100vh;
+    background-image: url(ooo.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.menu ul{
+    /* border: 2px solid pink; */
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+.menu ul li{
+    /* border: 2px solid black; */
+}
+.menu ul li a{
+    /* border: 2px solid green; */
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+
+    display: block;
+    width: 140px;
+    color: black;
+
+
+}
+.menu ul li a:hover{
+    color: azure;
+}
+.menu ul li ul{
+    display: none;
+}
+
+.menu ul li:hover ul{
+    display: block;
+    position: absolute;
+}
+
